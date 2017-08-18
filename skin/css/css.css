@@ -1,9 +1,8 @@
 ﻿﻿@charset "utf-8";
 /* CSS Document */
-ul, li {
-	list-style:none;
-	margin:0;
-	padding:0
+
+ul{
+	list-style-type: none;
 }
 img {
 	border:none
@@ -368,6 +367,9 @@ p{
 	width:100%;
 	background-color:#39302B;
 }
+.main2_b ul{
+	list-style-type: none;
+}
 .main2_b ul li {
 	width:322px;
 	margin-left:4px;
@@ -694,20 +696,26 @@ p{
 	margin-bottom:40px;
 }
 .nlist ul{
-	padding-left:0px
+	padding-left:0px;
+	list-style-type: none;
 }
 .nlist ul li {
 	width:698px;
-	height:109px;
-	padding-left:24px;
-	padding-top:22px;
 	background:#524E47;
-	margin-bottom:1px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.nlist ul li a{
+	display: block;
+}
+.nlist ul li h2{
+	color: #ffbc00;
 }
 .nlist ul li .nlist_l {
 	width:127px;
 	height:90px;
-	float:left;
+	display: inline-block;
+	vertical-align: middle;
 }
 .nlist ul li .nlist_l img {
 	width:121px;
@@ -718,7 +726,8 @@ p{
 	width:540px;
 	height:90px;
 	margin-left:16px;
-	float:left;
+	display: inline-block;
+	vertical-align: middle;
 }
 .nlist ul li .nlist_r a {
 	color:#fff;
