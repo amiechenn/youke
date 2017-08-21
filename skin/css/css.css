@@ -585,7 +585,7 @@ p{
 	color:#b9a38a;
 }
 .box_b {
-	background:url(../images/wb.jpg) no-repeat center center;
+	// background:url(../images/wb.jpg) no-repeat center center;
 	width:219px;
 	height:104px;
 	float:right;
