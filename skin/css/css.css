@@ -1003,3 +1003,8 @@ p{
 	z-index: 999;
 
 }
+.news_con_body img{
+	display: block;
+	width: 80%;
+	margin: auto;
+}
